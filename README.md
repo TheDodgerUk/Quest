@@ -41,6 +41,9 @@ Turn on / of  VR   #if VR_INTERACTION
 - Add:
 - VR_INTERACTION
 
+#Weird errors on loading
+- add package by name       com.meta.xr.sdk.core
+
 
 #Load Stuff at runtime
 - HouseBuilderRoot.cs 293
@@ -50,3 +53,6 @@ Turn on / of  VR   #if VR_INTERACTION
 - this.WaitFor(time, () =>
 - TaskAction task = new TaskAction(3, () => {stuff});   //task.Increment();
 - Core.Scene.SpawnObject
+
+
+
