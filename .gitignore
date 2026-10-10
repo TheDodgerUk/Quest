@@ -23,11 +23,11 @@
 *.csproj
 *.csproj.user
 **/SystemCore*.*
-Assets/SystemCore*.*
-**Assets/SystemCore/**
-**/SystemCoreVR*.*
-Assets/SystemCoreVR*.*
-**Assets/SystemCoreVR/**
+/Assets/SystemCore/
+/Assets/SystemCore.meta
+
+/Assets/SystemCoreVR/
+/Assets/SystemCoreVR.meta
 **/Assets/LocalAssets_*.*
 
 
