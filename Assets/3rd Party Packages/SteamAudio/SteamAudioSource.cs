@@ -69,7 +69,9 @@ namespace SteamAudio
             audioEngineSource.UpdateParameters(this);
 
             SplTextureMapRef = this.gameObject.ForceComponent<SplTextureMap>();
+            #if Steam_Audio
             SplTextureMapRef.Initilise(this);
+        #endif
         }
 
         void Start()
