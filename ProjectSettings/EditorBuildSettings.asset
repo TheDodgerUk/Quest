@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SystemCore/Scenes/Logic.unity
+    guid: aac6efa130b3c6c458a319181e4690c9
+  - enabled: 1
+    path: Assets/SystemCore/Scenes/LoadingVR.unity
+    guid: fceecd0a10d4f5a438015cbb2812eb3d
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7df187ca36188bb4086e506c28aa47bb,
+      type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 7e8e7874857f7164dbd83090463b0b08,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d1035a4185dec6045bfb598aa3fbae77,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 24b8f693f0aed52488f87c1bdf356c24,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: a0efad4ca60820d4bac410414072ccfb,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6d8d056c654cb6747ba71ebc5fbc44b5,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 357ed48aff22ce641bdb25f9f32e61d5,
+      type: 2}

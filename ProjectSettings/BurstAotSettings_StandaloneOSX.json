@@ -1,0 +1,11 @@
+{
+  "MonoBehaviour": {
+    "Version": 2,
+    "EnableBurstCompilation": false,
+    "EnableOptimisations": false,
+    "EnableSafetyChecks": false,
+    "UsePlatformSDKLinker": false,
+    "CpuMinTargetX64": 3,
+    "CpuMaxTargetX64": 4
+  }
+}

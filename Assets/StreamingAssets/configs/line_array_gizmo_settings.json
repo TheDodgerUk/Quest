@@ -1,0 +1,53 @@
+{
+    "m_VersionNumber": 0,
+    "m_AddGizmoRadius": 0.5,
+    "m_AddGizmoStartAngle": 180.0,
+    "m_AddGizmoSeparationAngle": 40.0,
+    "m_AngleGizmoDistance": 0.20000000298023225,
+    "m_AngleGizmoDeadZone": 0.4000000059604645,
+    "m_BtnSplToyBoxOffset": {
+        "x": 1.0,
+        "y": 0.4000000059604645,
+        "z": 0.0
+    },
+    "m_BtnSplLifeSizeHeight": 1.7000000476837159,
+    "m_CentreGrabHandleOffset": {
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.5
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        }
+    },
+    "m_RightGrabHandleOffset": {
+        "Position": {
+            "x": 0.5,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.7071067690849304,
+            "z": 0.0,
+            "w": 0.7071067690849304
+        }
+    },
+    "m_LeftGrabHandleOffset": {
+        "Position": {
+            "x": -0.5,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.7071067690849304,
+            "z": 0.0,
+            "w": -0.7071067690849304
+        }
+    }
+}

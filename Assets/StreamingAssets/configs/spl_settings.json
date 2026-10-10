@@ -1,0 +1,11 @@
+{
+    "m_VersionNumber": 2,
+    "m_BalloonResolution": 2.0,
+    "m_FrequencyBand": {
+        "m_Name": "5 Octave",
+        "m_Width": 5.0
+    },
+    "m_CentreFrequency": 2000.0,
+    "m_MaxDb": 100.0,
+    "m_MinDb": 70.0
+}

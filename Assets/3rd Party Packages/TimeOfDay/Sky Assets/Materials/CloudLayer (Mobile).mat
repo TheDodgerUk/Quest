@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CloudLayer (Mobile)
+  m_Shader: {fileID: 4800000, guid: 591aea64eeafe4be49159ca34c897c94, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseNormals:
+        m_Texture: {fileID: 2800000, guid: 4916ec9dfd87c419a96314733e7afed8, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 9d2f755384fe34d4b8e60409e8438560, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _noiseNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _noiseTexture:
+        m_Texture: {fileID: 2800000, guid: 1b445fb7d9c814ff79a66cc2b7a77dc6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudDensity: 1.5
+    - _CloudScale1: 3
+    - _CloudScale2: 7
+    - _CloudShading: 0.5
+    - _CloudSharpness: 1
+    - _CloudSpeed1: 0.5
+    - _CloudSpeed2: 1
+    - _CloudTone: 1.5
+    - _OneOverGamma: 0.45454544
+    - _cloudDensity: 1
+    - _cloudScale1: 3
+    - _cloudScale2: 7
+    - _cloudShading: 0.2
+    - _cloudSharpness: 1
+    - _cloudSpeed1: 0.5
+    - _cloudSpeed2: 1
+    - _cloudTone: 1.5
+    - _oneOverGamma: 0.45454544
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColor: {r: 0.82335025, g: 0.7954403, b: 0.7145365, a: 0.91569585}
+    - _LightDirection: {r: -0.39528662, g: -0.46983057, b: -0.78930867, a: 0}
+    - _WindDirection: {r: 1, g: 1, b: 1, a: 1}
+    - _sunColor: {r: 0.85084045, g: 0.7423543, b: 0.64658827, a: 0.85084045}
+    - _sunDirection: {r: -0.39528695, g: -0.91847634, b: 0.0122311115, a: 0}
+    - _windDirection: {r: 2, g: 1, b: 2, a: 1}
+  m_BuildTextureStacks: []

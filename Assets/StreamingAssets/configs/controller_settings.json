@@ -1,0 +1,10 @@
+{
+    "m_VersionNumber": 2,
+	"m_ExtendHandMinDistance": 0.3,
+    "m_ExtendHandMaxDistance": 2000,
+    "m_LinearPushSpeed": 4,
+	"m_TeleporterMinSegDistance": 0.15,
+	"m_TeleporterMaxSegDistance": 0.75,
+	"m_TeleporterUpdateSegLength": 0.2,
+	"m_TeleporterDefaultSegLength": 0.45
+}

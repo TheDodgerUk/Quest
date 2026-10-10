@@ -1,0 +1,10 @@
+{
+    "m_VersionNumber": 2,
+    "m_GlobalDensityMultiplier": 1.0,
+    "m_ConstantFog": 1.0,
+    "m_HeightFogAmount": 2.0,
+    "m_HeightFogExp": 1.0,
+    "m_HeightFogOffset": 2.240000009536743,
+    "m_FogNoise": 0.11999999731779099,
+    "m_FogScale": 1.9800000190734864
+}

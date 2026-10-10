@@ -1,0 +1,51 @@
+{
+    "m_VersionNumber": 3,
+    "m_SetupLogging": false,
+    "m_ThrowVelocity": 0.03500000014901161,
+    "m_StartPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_StartRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+    },
+    "m_MenuPosition": {
+        "x": 0.0,
+        "y": 2.0,
+        "z": -25.0
+    },
+    "m_MenuRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+    },
+    "m_MenuToyboxPosition": {
+        "x": 6.0,
+        "y": 8.0,
+        "z": -17.0
+    },
+    "m_MenuToyboxRotation": {
+        "x": 0.0,
+        "y": 0.7071067690849304,
+        "z": 0.0,
+        "w": -0.7071067690849304
+    },
+    "m_StartingEnvironmentIndex": 8,
+	"m_SaveSceneName": "trainer",
+    "m_ToyboxSize": 8.0,
+    "m_VideoCameraEnabled": true,
+    "m_VideoCameraResolution": {
+        "x": 1024.0,
+        "y": 512.0
+    },
+    "m_ConsoleScreenResolution": {
+        "x": 1024.0,
+        "y": 512.0
+    },
+    "m_LodBias": 4.0
+}
