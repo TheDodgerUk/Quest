@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SystemCore/Scenes/LoadingNonVR.unity
     guid: 109273bb9b796df46b1e91bdfd6af1c0
+  - enabled: 1
+    path: Assets/SystemCore/Scenes/LoadingVR.unity
+    guid: fceecd0a10d4f5a438015cbb2812eb3d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 354b057fc9cf65f45a283f223860341f,
       type: 2}
