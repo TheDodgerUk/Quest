@@ -13,9 +13,7 @@ public class IKFootSolver : MonoBehaviour
     private Vector3 _oldPos, _currentPos, _newPos;
     private Vector3 _oldNorm, _currentNorm, _newNorm;
     private bool _isFirstStep = true;
-    private Ray ray;
-
-
+    
     void Start()
     {
         _footSpacing = transform.localPosition.x;
@@ -29,15 +27,13 @@ public class IKFootSolver : MonoBehaviour
         transform.position = _currentPos + footPosOffset;
         transform.rotation = Quaternion.LookRotation(_currentNorm) * Quaternion.Euler(footRotOffset);
 
-        ray = new Ray(body.position + (body.right * _footSpacing) + (Vector3.up * 2), Vector3.down);
+        Ray ray = new Ray(body.position + (body.right * _footSpacing) + (Vector3.up * 2), Vector3.down);
 
         if (Physics.Raycast(ray, out RaycastHit hit, 10, terrainLayer.value))
         {
-            Debug.LogError($"_isFirstStep {_isFirstStep} ");
             if (_isFirstStep || (Vector3.Distance(_newPos, hit.point) > stepDistance && !otherFoot.IsMoving() 
                 && !IsMoving()))
             {
-                Debug.LogError($"_isFirstStep1111 {_isFirstStep} ");
                 _lerp = 0;
                 int direction = body.InverseTransformPoint(hit.point).z > body.InverseTransformPoint(_newPos).z
                     ? 1
@@ -47,7 +43,6 @@ public class IKFootSolver : MonoBehaviour
             }
         }
 
-        Debug.LogError($"Lerp {_lerp} ");
         if (_lerp < 1)
         {
             Vector3 tempPos = Vector3.Lerp(_oldPos, _newPos, _lerp);
@@ -75,8 +70,5 @@ public class IKFootSolver : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(_newPos, 0.1f);
-
-        Gizmos.color = Color.green;
-        Debug.DrawRay(ray.origin, ray.direction * 100f, Color.green, duration: 0.2f, depthTest: false);
     }
 }

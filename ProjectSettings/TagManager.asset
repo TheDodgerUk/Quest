@@ -25,18 +25,18 @@ TagManager:
   - ControllerUI
   - 
   - Teleport
-  - NoInteration
+  - 
   - HiddenLayer
-  - Layer1
-  - Layer2
-  - Layer3
-  - Layer4
-  - Layer5
-  - Layer6
-  - Player1Hands
-  - Player2Hands
-  - Player1Interaction
-  - Player2Interaction
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - HandPlayer
   - Hand
   - HandHolding
